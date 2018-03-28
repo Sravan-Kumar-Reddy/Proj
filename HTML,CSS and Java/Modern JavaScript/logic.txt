@@ -1,0 +1,16 @@
+episodeInfo function:
+	1.Input: Season number and episode number
+	2.check through the list of episodes for a match for episode and season and print the resulting episode.
+	3.Default values are used
+
+multiEpisode:
+	1.Input: Takes in the id of an episode(It can be more than one)
+	2.Check through the list of episodes for a match for id in the list and print all the results(All episodes), cause the episode ids can be more than one.
+	3.Spread property is used in Modern JavaScript
+
+episodeByName:
+	1.Input takes in the name of an episode as the input.
+	2.Check through the list of episodes for a match for name in the list and print the results.
+
+NOTE:
+	Most of the JavaScript feature are used in every function wherever possible.

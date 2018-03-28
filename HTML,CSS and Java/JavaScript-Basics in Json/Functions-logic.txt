@@ -1,0 +1,9 @@
+LOGIC:
+
+1. First i got the number of pokemons in the datastore using a function which increments a variable initiated to zero  by 1 for every pokemon in the datastore.
+
+2.Now for the function which takes the value/name of pokemon from the user and prints the details of that pokemon, i searched for every pokemon in the data store using nested for in loop. When a see a match between the name the user has given and the name in the data store, i print the details of that pokemon.
+
+3.For the function which gives the name of the pokemon which has the name that user has given in its next_evolution field, i again used the nested for in loop where i check the next_evolution field for every pokemon in the data store and when a match is found print the name of pokemon. But there can be more than one pokemon having the input pokemon as their next_evolution field.
+
+4.For the function which takes in the pokemon's weakness and list out all the pokemons having that weakness, i used nested for in loops to get into the array of weaknesses, where i check for a match between the input and the weaknesses entry, and if i find a match i move onto the next pokemon adding its name to the output. I also print out the number of pokemons having that weakness.
